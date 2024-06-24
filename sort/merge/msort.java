@@ -23,13 +23,22 @@ public class msort {
         int i = 0; //left array
         int j = 0; //right array
 
+        // for (; i < middle; i++) {
+        //     if(i < middle) { 
+        //         leftArray[i] = array[i];
+        //     } else {
+        //         rightArray[j] = array[i];
+        //         j++;
+        //     }
+        // }
+
+        for (; i < middle; i++) {
+            leftArray[i] = array[i];
+        }
+
         for (; i < length; i++) {
-            if(i < middle) { 
-                leftArray[i] = array[i];
-            } else {
-                rightArray[j] = array[i];
-                j++;
-            }
+            rightArray[j] = array[i];
+            j++;
         }
 
         mergeSort(leftArray);
@@ -39,8 +48,10 @@ public class msort {
 
     private static void merge(int[] leftArray, int[] rightArray, int[] array) {
 
-        int leftSize = array.length/2;
-        int rightSize = array.length - leftSize;
+        // int leftSize = array.length/2;
+        // int rightSize = array.length - leftSize;
+        int leftSize = leftArray.length;
+        int rightSize = rightArray.length;
         int i = 0, l = 0, r = 0; //indices
 
         //check the conditions for the merging
@@ -56,7 +67,15 @@ public class msort {
             }
         }
 
-        while (l < leftSize) array[i] = leftArray[l]; i++; l++;
-        while (r < rightSize) array[i] = rightArray[r]; i++; r++;
+        while (l < leftSize) {
+            array[i] = leftArray[l];
+            i++;
+            l++;
+        }
+        while (r < rightSize) {
+            array[i] = rightArray[r];
+            i++;
+            r++;
+        }
     }
 }
