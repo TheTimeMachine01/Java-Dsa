@@ -1,4 +1,4 @@
-package linklist;
+package Basic.linklist;
 
 public class dublylink<T> {
     
