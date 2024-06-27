@@ -66,6 +66,5 @@ public class TwoSum {
         }
         return arr;
     }
-
 }
 

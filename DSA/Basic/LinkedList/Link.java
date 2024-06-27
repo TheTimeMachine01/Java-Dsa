@@ -5,6 +5,17 @@ public class Link<T> {
     private Node<T> head;
     private int size;
 
+    // Method to convert the linked list to an int[] array
+    public int[] toArray() {
+        int[] array = new int[size];
+        Node<T> current = head;
+        for (int i = 0; i < size; i++) {
+            array[i] = (int) current.data; // Assuming T is Integer
+            current = current.next;
+        }
+        return array;
+    }
+
     private static class Node<T> {
         private final T data;
         private Node<T> next;
@@ -37,7 +48,6 @@ public class Link<T> {
             current.next = newNode;
 
         }
-
         size++;
     }
 
@@ -88,6 +98,8 @@ public class Link<T> {
         list.add(1);
         list.add(2);
         list.add(3);
+
+        System.out.println(list.get(0));
 
     }
 }

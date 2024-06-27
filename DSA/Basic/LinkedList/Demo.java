@@ -109,7 +109,6 @@ public class Demo<T> {
 
         size--;
         return current.data;
-
     }
 
     public int size() {
