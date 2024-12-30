@@ -5,7 +5,6 @@ import LeetCode.AddTwoNumbers.AddTwoNumbersWCarry.AddTwoNumbers;
 
 import java.util.Arrays;
 
-//import static LeetCode.AddTwoNumbers.AddTwoNumbersWCarry.AddTwoNumbers.addTwoNumbers;
 import static LeetCode.AddTwoNumbers.AddTwoNumbersWCarryAgain.AddTwoNumbers.addTwoNumbers;
 
 public class AddTwoNumbersTest {
