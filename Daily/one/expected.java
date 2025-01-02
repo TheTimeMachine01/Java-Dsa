@@ -1,33 +1,21 @@
 // Date: 1 Jan 2025, Wednesday
 
 // Q: Find the middle of the linked list. (Linked Lists) [Easy]
-// A: Naive method (can also be done with another method, which is already mentioned)
+// A: Tortoise an Hare Algorithm method (can also be done with another method, which is already mentioned)
 package Daily.one;
 
-public class naive {
-
-    static int getLength(Node head) {
-        int length = 0;
-
-        while (head != null) {
-            length++;
-            head = head.next;
-        }
-
-        return length;
-    }
+public class expected {
 
     static int getMid(Node head) {
 
-        int length = getLength(head);
+        Node slow = head, fast = head;
 
-        int mid_index = length / 2;
-        while (mid_index > 0) {
-            head = head.next;
-            mid_index--;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
 
-        return head.data;
+        return slow.data;
     }
 
     public static void main(String[] args) {
