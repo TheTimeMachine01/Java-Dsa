@@ -1,7 +1,7 @@
 package DSA.Search.LinearSearch;
 
 public class LinearSearch {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         // int[] array = {2, 5, 6, 4, 8, 9};
         int[] array = new int[100];
         // int target = 42;
