@@ -4,6 +4,8 @@
 // A: Tortoise an Hare Algorithm method (can also be done with another method, which is already mentioned)
 package Daily.one;
 
+import Daily.components.Node;
+
 public class expected {
 
     static int getMid(Node head) {

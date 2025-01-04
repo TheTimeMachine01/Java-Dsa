@@ -4,6 +4,8 @@
 // A: Naive method (can also be done with another method, which is already mentioned)
 package Daily.one;
 
+import Daily.components.Node;
+
 public class naive {
 
     static int getLength(Node head) {
