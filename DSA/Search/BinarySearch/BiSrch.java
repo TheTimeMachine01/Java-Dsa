@@ -1,4 +1,4 @@
-// Date: 6 Jan 2025, Friday
+// Date: 6 Jan 2025, Monday
 
 // Q: Binary Search in an array. (Searching & Sorting) [Basic]
 // A:

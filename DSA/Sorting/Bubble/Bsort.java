@@ -1,4 +1,4 @@
-// Date: 7 Jan 2025, Friday
+// Date: 7 Jan 2025, Tuesday
 
 // Q: Bubble Sort. (Searching & Sorting) [Basic]
 // A:

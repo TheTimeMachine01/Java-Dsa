@@ -1,4 +1,4 @@
-// Date: 4 Jan 2025, Friday
+// Date: 4 Jan 2025, Saturday
 
 // Q: Implement stack using array/linked list. (Stacks) [Basic]
 // A:

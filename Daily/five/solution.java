@@ -1,4 +1,4 @@
-// Date: 5 Jan 2025, Friday
+// Date: 5 Jan 2025, Sunday
 
 // Q: Implement queue using array/linked list. (Queues) [Basic]
 // A:
