@@ -14,7 +14,7 @@ public class TwoSum {
         long elapsedTime;
 //        int[] sol = tSm(array, target);
 
-//        System.out.println("The Sum of " + arraynums[sol[0]] + " & " + array[sol[1]] + " is equals to:"+ target);
+//        System.out.println("The Sum of " + arraydeques[sol[0]] + " & " + array[sol[1]] + " is equals to:"+ target);
 
         System.out.println("Pairs in the array that sum up to " + target + ":");
 //        tSm(array, target);
