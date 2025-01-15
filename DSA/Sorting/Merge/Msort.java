@@ -69,7 +69,5 @@ public class Msort {
             i++;
             r++;
         }
-
     }
-
 }
